@@ -13,5 +13,10 @@ object simple_math {
     
   //sum of squares of int between a and b
   def sumOfSquares (a: Int, b: Int) : Int =
-    if (a > b) 0 else square(a) + sumOfSquares(a + 1, b) 
+    if (a > b) 0 else square(a) + sumOfSquares(a + 1, b)
+    
+  def sumOfFactorials (a: Int, b: Int) : Int =
+    if (a > b) 0 else factorial(a) + sumOfFactorials(a + 1, b)
+    
+    
 }
