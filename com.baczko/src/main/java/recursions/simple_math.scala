@@ -17,6 +17,9 @@ object simple_math {
     
   def sumOfFactorials (a: Int, b: Int) : Int =
     if (a > b) 0 else factorial(a) + sumOfFactorials(a + 1, b)
-    
-    
+  
+  def recursiveSum (args: Int*): Int =
+   if (args.length == 0) 0
+   else args.head + recursiveSum(args.tail: _*) 
+  //_* converts sequence of values into argument sequence    
 }
