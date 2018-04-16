@@ -11,4 +11,7 @@ object MathematicalOperations extends App {
   import recursions.simple_math._
   println(gcd(14, 28))
   println(factorial(5))
+
+  import scala_for_the_impatient._
+  Ch2_ex06.UnicodeProduct("Hello")
 }
