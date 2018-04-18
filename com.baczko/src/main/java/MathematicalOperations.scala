@@ -13,5 +13,5 @@ object MathematicalOperations extends App {
   println(factorial(5))
 
   import scala_for_the_impatient._
-  Ch2_ex06.UnicodeProduct("Hello")
+  Ch2_ex06.unicodeProduct("Hello")
 }
